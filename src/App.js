@@ -1,5 +1,5 @@
 // https://www.youtube.com/watch?v=ly3m6mv5qvg
-// 2 hr 54' 00 ''
+// 3 hr 02' 00 ''
 import React, { useState } from 'react';
 
 import data from './data';
@@ -13,8 +13,13 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    console.log('Submiting form...');
+    //console.log('Submiting form...');
+    //console.log(count);
+    
+    let newText = data.slice(0, count)
+    console.log('newText ', newText);
+    
+    setText(newText);
   };
   
 
@@ -34,6 +39,14 @@ function App() {
         />
         <button type="submit" className="btn">generate</button>
       </form>
+      <article className="lorem-text">
+        {
+          text.map((paragraph, idx) => {
+            return <p key={idx}>{paragraph}</p>
+          })
+        }
+
+      </article>
     </section>
     );
 }
