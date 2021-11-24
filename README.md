@@ -1,12 +1,13 @@
-# Birthday Reminder - React-JS
+# React-JS Lorem Ipsum App
 
 <br />
 
-O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário.
+O projeto recebe dados de um arquivo com um array formado por lorem ipsum que é usado para servir renderizar na tela para o usuário a quantidade de parágrafos passade em formulário.
 
 <br />
 
-**Tendo sido adicionado ao projeto a funcionalidade de selecionar apenas os dados de aniversariantes do dia.**
+Como funcionalidades gerais, o app permite ler um número de um elemento de formulário para usálo para definir o retorno de lorem ipsum.
+Ademais, o app valida os valores passados pelo formulário aceitando valores positivos e valores no limite do tamanho do array de dados.
 
 <br />
 

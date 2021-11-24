@@ -13,21 +13,20 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //console.log('Submiting form...');
-    //console.log(count);
     console.log(data.length);
     
-    let newText = [];
-    if (count >= data.length) {
-      newText = data.slice();
-    } else if (count < 0) {
-      newText = data.slice(0, 1);
-    } else {
-      newText = data.slice(0, count)
-      console.log('newText ', newText);
-    }
+    console.log(typeof count);
+    let amount = parseInt(count);
+ 
+    if (amount >= data.length) {
+      amount = data.length;
+    } 
     
-    setText(newText);
+    if (amount <= 0) {
+      amount = 1;
+    } 
+    
+    setText(data.slice(0, amount));
   };
   
 
