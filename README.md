@@ -21,15 +21,9 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com Lista de Contatos:
+### Imagem do app renderizando o número de parágrafos com lorem ipsum pedido pelo usuário no formulário:
 
-![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
-
-<br />
-
-### Imagem da funcionalidade acrescida de Aniversariantes do Dia:
-
-![Imagem da funcionalidade acrescida de Aniversariantes do Dia](/public/images/aniversariantes-do-dia.png)
+![Imagem do app renderizando o número de parágrafos com lorem ipsum pedido pelo usuário no formulário](/public/images/reactjs-lorem-ipsum-app.png)
 
 <br />
 <br />

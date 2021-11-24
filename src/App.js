@@ -13,6 +13,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(data);
     console.log(data.length);
     
     console.log(typeof count);
