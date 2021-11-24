@@ -15,9 +15,17 @@ function App() {
     e.preventDefault();
     //console.log('Submiting form...');
     //console.log(count);
+    console.log(data.length);
     
-    let newText = data.slice(0, count)
-    console.log('newText ', newText);
+    let newText = [];
+    if (count >= data.length) {
+      newText = data.slice();
+    } else if (count < 0) {
+      newText = data.slice(0, 1);
+    } else {
+      newText = data.slice(0, count)
+      console.log('newText ', newText);
+    }
     
     setText(newText);
   };
